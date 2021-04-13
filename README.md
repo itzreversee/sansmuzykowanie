@@ -2,7 +2,7 @@
 Bot, that plays random music from undertale ost
 
 ---------------------------
-#Installation
+## Installation
 * Get python 3
 * Get source code and unpack it somewhere,
 * Install every dependecy from requirements.txt using pip3
@@ -11,7 +11,7 @@ Bot, that plays random music from undertale ost
 * Run ``` python3 main.py ``` in the main directory
 * Profit!
 ----------------------------
-#Dependencies
+## Dependencies
 Most of then are in ```requirements.txt``` but some of then are not needed
 the must-have one, that i remembrer are:
 * asyncio
@@ -23,7 +23,7 @@ the must-have one, that i remembrer are:
 * Python 3 (Latest Version)
 * ```ffmpeg.exe``` search it on the web
 ---------------------------
-#Make a bot and get Token!
+## Make a bot and get Token!
 * go here --> https://discord.com/developers/applications
 * click new application in top right corner
 * name it, and click ```create```.
