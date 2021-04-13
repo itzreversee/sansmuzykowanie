@@ -19,7 +19,7 @@ the must-have one, that i remembrer are:
 * DateTime
 * ffmpeg-python
 * PyNaCl
--
+###### Other important
 * Python 3 (Latest Version)
 * ```ffmpeg.exe``` search it on the web
 ---------------------------
