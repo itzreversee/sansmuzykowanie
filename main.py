@@ -244,4 +244,4 @@ async def on_message(message):
         embed.set_footer(text="by reversee | Sans Muzykowanie |")
         msgx = await message.channel.send(embed=embed)
 
-client.run("ODE5NTYyMjYxNjcxNTc1NjUz.YEoa1Q.V0HDBGj728wkjbD1Um4Wihn8sfQ")
+client.run(os.getenv("TOKEN"))
