@@ -12,12 +12,11 @@ Bot, that plays random music from undertale ost
 * Profit!
 ----------------------------
 ## Dependencies
-Most of then are in ```requirements.txt``` but some of then are not needed
-the must-have one, that i remembrer are:
+Must have dependencies:
 * asyncio
 * discord.py
-* DateTime
-* ffmpeg-python
+* cffi
+* ffmpeg
 * PyNaCl
 ###### Other important
 * Python 3 (Latest Version)
