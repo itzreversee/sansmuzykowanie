@@ -18,6 +18,7 @@ Must have dependencies:
 * cffi
 * ffmpeg
 * PyNaCl
+Install them using: ``` python3 -m pip install asyncio discord cffi ffmpeg PyNaCl ```
 ###### Other important
 * Python 3 (Latest Version)
 * ```ffmpeg.exe``` search it on the web
