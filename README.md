@@ -6,7 +6,7 @@ Bot, that plays random music from undertale ost
 * Get python 3
 * Get source code and unpack it somewhere,
 * Install every dependecy from requirements.txt using pip3
-* Download ```ffmpeg.exe````
+* Download ```ffmpeg.exe```
 * Generate new token and insert it into ``` .env ``` file
 * Run ``` python3 main.py ``` in the main directory
 * Profit!
