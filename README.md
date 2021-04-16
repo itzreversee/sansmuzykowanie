@@ -14,7 +14,7 @@ Bot, that plays random music from undertale ost
 ## Dependencies
 Must have dependencies:
 * asyncio
-* discord.py
+* discord
 * cffi
 * ffmpeg
 * PyNaCl
