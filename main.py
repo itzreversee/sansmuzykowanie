@@ -18,4 +18,4 @@ async def on_message(message):
         embed=discord.Embed(title="Sans Muzykowanie nano | https://github.com/reversee-dev/sansmuzykowanie | "color=0x000000)
         embed.add_field(name="Now playing:", value=d, inline=True)
         msgx = await message.channel.send(embed=embed)
-client.run("ODE5NTYyMjYxNjcxNTc1NjUz.YEoa1Q.x9WZOazzgSJ5Y-fxZE83s7jlipc")
+client.run("TOKEN")
