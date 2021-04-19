@@ -10,7 +10,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
-    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Undertale OST | $undertale"))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="$play | Play random undertale Music!"))
 
 @client.event
 async def on_message(message):
@@ -32,7 +32,7 @@ async def on_message(message):
 
         embed=discord.Embed(title="Sans Muzykowanie", color=0x000000)
         embed.add_field(name="Now playing:", value=d, inline=True)
-        embed.set_footer(text="by reversee | Sans Muzykowanie |")
+        embed.set_footer(text="by reversee-dev <-- Github | Sans Muzykowanie |")
         msgx = await message.channel.send(embed=embed)
 
-client.run("ODE5NTYyMjYxNjcxNTc1NjUz.YEoa1Q.x9WZOazzgSJ5Y-fxZE83s7jlipc")
+client.run("TOKEN")
