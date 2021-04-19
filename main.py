@@ -1,5 +1,3 @@
-
-#from discord import FFmpegPCMAudio
 import discord
 import os
 import random
@@ -31,12 +29,10 @@ async def on_message(message):
 
         voice.stop()
         voice.play(discord.FFmpegPCMAudio(source=".\music\\"+d))
-        #voice.play(discord.FFmpegPCMAudio(source="ost\\100_Megalovania.mp3"))
 
         embed=discord.Embed(title="Sans Muzykowanie", color=0x000000)
         embed.add_field(name="Now playing:", value=d, inline=True)
         embed.set_footer(text="by reversee | Sans Muzykowanie |")
         msgx = await message.channel.send(embed=embed)
-
 
 client.run("ODE5NTYyMjYxNjcxNTc1NjUz.YEoa1Q.x9WZOazzgSJ5Y-fxZE83s7jlipc")
