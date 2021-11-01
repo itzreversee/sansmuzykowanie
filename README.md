@@ -1,5 +1,5 @@
 # sansmuzykowanie
-[https://img.shields.io/github/stars/reversee-dev/sansmuzykowanie?style=social] [https://img.shields.io/github/last-commit/reversee-dev/sansmuzykowanie] [https://img.shields.io/badge/version-2-blueviolet]
+![img](https://img.shields.io/github/stars/reversee-dev/sansmuzykowanie?style=social) ![img](https://img.shields.io/github/last-commit/reversee-dev/sansmuzykowanie) ![img](https://img.shields.io/badge/version-2-blueviolet)  
 Bot, that plays random music  
 
 ---------------------------
