@@ -67,3 +67,6 @@ Must have dependencies:
 * paste it in last line
 * done. now go up and run this thing!
 ---------------------------
+
+## bugs
+* when disabling loop in random mode, it will show message that song is changing, when the loop song was supposed to end. (it won't actually play it)
