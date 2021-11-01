@@ -1,6 +1,5 @@
-# sansmuzykowanie
+# sansmuzykowanie - play random music in discord
 ![img](https://img.shields.io/github/stars/reversee-dev/sansmuzykowanie?style=social) ![img](https://img.shields.io/github/last-commit/reversee-dev/sansmuzykowanie) ![img](https://img.shields.io/badge/version-2-blueviolet)  
-Bot, that plays random music  
 
 ---------------------------
 ## Commands
@@ -24,7 +23,6 @@ Lists all music files, remember to use ```""```, eg.
 If ```"music"``` is not set, loops random song.  
 else it loops selected song, stop with $stop or $play
 
----------------------------
 ## Changelog - 2.0  
 * Rewrite
 * Ability to select song with $play
@@ -32,7 +30,7 @@ else it loops selected song, stop with $stop or $play
 * $stop command
 * $loop command
 * Very good code
----------------------------
+
 ## Installation
 * Get linux ( only tested on ubuntu 21.10 )
 * Get python 3
@@ -43,7 +41,7 @@ else it loops selected song, stop with $stop or $play
 * Change line 15 to where music folder is.
 * Run ``` python3 main.py ```
 * Profit!
-----------------------------
+
 ## Dependencies
 Must have dependencies:
 * asyncio
@@ -56,7 +54,7 @@ Must have dependencies:
 ##### Other important
 * Python 3 (Latest Version)
 * ```ffmpeg```
----------------------------
+
 ## Make a bot and get Token!
 * go here --> https://discord.com/developers/applications
 * click new application in top right corner
@@ -67,6 +65,7 @@ Must have dependencies:
 * set avatar or something, and click ```Copy``` under token
 * paste it in last line
 * done. now go up and run this thing!
+
 ---------------------------
 
 ## bugs
