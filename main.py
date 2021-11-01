@@ -17,7 +17,7 @@ bot = commands.Bot(command_prefix="$", intents=discord.Intents.all())
 
 @bot.command()
 async def setup(ctx):
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="$help | Play random music!"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="$play | Play random music!"))
 
 
 @bot.command()
