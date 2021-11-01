@@ -2,13 +2,45 @@
 Bot, that plays random music from undertale ost
 
 ---------------------------
+## Commands
+
+* $setup  
+Sets presence ( can be deleted )  
+
+* $play ```"music"```  
+If ```"music"``` is not set, plays random music  
+also stops loop
+
+* $stop  
+Stops music  
+
+* $list
+Lists all music files, remember to use ```""```, eg.  
+ mysong.mp3 -- wrong  
+ "mysong.mp3" -- good
+ 
+* $loop ```"music"```  
+If ```"music"``` is not set, loops random song.  
+else it loops selected song, stop with $stop or $play
+
+---------------------------
+## Changelog - 2.0  
+* Rewrite
+* Ability to select song with $play
+* $list command
+* $stop command
+* $loop command
+* Very good code
+---------------------------
 ## Installation
+* Get linux ( only tested on ubuntu 21.10 )
 * Get python 3
 * Get source code and unpack it somewhere,
-* Install every dependecy from requirements.txt using pip3
-* Download ```ffmpeg.exe```
-* Generate new token and insert it into ``` .env ``` file
-* Run ``` python3 main.py ``` in the main directory
+* Install dependencies
+* Download ```ffmpeg```
+* Generate new token and insert it in last line - ```bot.run("ur_token_here")```
+* Change line 15 to where music folder is.
+* Run ``` python3 main.py ```
 * Profit!
 ----------------------------
 ## Dependencies
@@ -18,10 +50,11 @@ Must have dependencies:
 * cffi
 * ffmpeg
 * PyNaCl
-###### Install them using: ``` python3 -m pip install asyncio discord cffi ffmpeg PyNaCl ```
+* mutagen
+###### Install them using: ``` python3 -m pip install asyncio discord cffi ffmpeg PyNaCl mutagen```
 ##### Other important
 * Python 3 (Latest Version)
-* ```ffmpeg.exe``` search it on the web
+* ```ffmpeg```
 ---------------------------
 ## Make a bot and get Token!
 * go here --> https://discord.com/developers/applications
@@ -31,6 +64,6 @@ Must have dependencies:
 * on the left, click ```Bot```.
 * click ```Add Bot```, and ```Yes, do it```
 * set avatar or something, and click ```Copy``` under token
-* paste it in ```.env``` 
+* paste it in last line
 * done. now go up and run this thing!
 ---------------------------
