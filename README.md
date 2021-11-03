@@ -1,5 +1,5 @@
-# sansmuzykowanie
-Bot, that plays random music from undertale ost
+# sansmuzykowanie nano ***( not recommended to use )***
+Bot, that plays random music  
 
 ---------------------------
 ## Installation
