@@ -23,6 +23,12 @@ Lists all music files, remember to use ```""```, eg.
 If ```"music"``` is not set, loops random song.  
 else it loops selected song, stop with $stop or $play
 
+---
+
+## Changelog - 2.1
+* $pause command (breaks loops)
+* $resume command
+
 ## Changelog - 2.0  
 * Rewrite
 * Ability to select song with $play
@@ -30,6 +36,8 @@ else it loops selected song, stop with $stop or $play
 * $stop command
 * $loop command
 * Very good code
+
+---
 
 ## Installation
 * Get linux ( only tested on ubuntu 21.10 )
@@ -70,3 +78,4 @@ Must have dependencies:
 
 ## bugs
 * when disabling loop in random mode, it will show message that song is changing, when the loop song was supposed to end. (it won't actually play it)
+* resuming loops, converts it into $play command or something lol
