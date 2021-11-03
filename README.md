@@ -21,7 +21,10 @@ Lists all music files, remember to use ```""```, eg.
  
 * $loop ```"music"```  
 If ```"music"``` is not set, loops random song.  
-else it loops selected song, stop with $stop or $play
+else it loops selected song, stop with $stop or $play  
+
+* $pause - pauses ( breaks loops )  
+* $resume - resumes  
 
 ---
 
