@@ -12,6 +12,7 @@ from mutagen.mp3 import MP3
 
 # super quality code
 llock = "n"
+path = '/path/to/folder/named/music/'
 
 bot = commands.Bot(command_prefix="$", intents=discord.Intents.all())
 
@@ -31,7 +32,7 @@ async def play(ctx, song: str = None):
         channel = ctx.author.voice.channel
         voice = await channel.connect() 
     
-    path = '/home/server/servers/sansmuzykowanie/music/'
+    
     if song == None:
         song = random.choice(os.listdir(path)) 
 
@@ -56,8 +57,19 @@ async def stop(ctx):
     llock = "n"
 
 @bot.command()
+async def pause(ctx):
+    voice = discord.utils.get(bot.voice_clients, guild=ctx.guild)
+    voice.pause()
+
+@bot.command()
+async def resume(ctx):
+    voice = discord.utils.get(bot.voice_clients, guild=ctx.guild)
+    voice.resume()
+
+
+@bot.command()
 async def list(ctx):
-    path = '/home/server/servers/sansmuzykowanie/music/'
+    
     d = os.listdir(path)
     n = 0
     
@@ -77,7 +89,7 @@ async def loop(ctx, song: str = None):
 
     rSong = False
 
-    path = '/home/server/servers/sansmuzykowanie/music/'
+    
     if song == None:
         song = random.choice(os.listdir(path)) 
         rSong = True
@@ -109,7 +121,7 @@ async def loop(ctx, song: str = None):
         voice.stop()
         voice.play(discord.FFmpegPCMAudio(source=path+song))
 
-        sSong = MP3(path + song)
+        Song = MP3(path + song)
 
         await asyncio.sleep(sSong.info.length)
 
