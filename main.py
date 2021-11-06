@@ -121,7 +121,7 @@ async def loop(ctx, song: str = None):
         voice.stop()
         voice.play(discord.FFmpegPCMAudio(source=path+song))
 
-        Song = MP3(path + song)
+        sSong = MP3(path + song)
 
         await asyncio.sleep(sSong.info.length)
 
